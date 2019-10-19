@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace portBus RADIO_LED0 -pg 1 -lvl 5 -x 1630 -y -440 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 600 -y -140 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 150 -y -380 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 4 -x 1460 -y -170 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 3 -x 1120 -y -110 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 -10 -230 290 -230 910 -220 1310
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 1 N -130
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 0 4 10 -240 NJ -240 930J -230 1300
+preplace netloc axi_gpio_0_gpio_io_o 1 1 4 NJ -370 NJ -370 NJ -370 1610
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 2 2 920 -260 NJ
+preplace netloc ps8_0_axi_periph_M00_AXI 1 0 5 0 -300 290J -320 NJ -320 NJ -320 1610
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 2 2 940 -240 NJ
+levelinfo -pg 1 -30 150 600 1120 1460 1630
+pagesize -pg 1 -db -bbox -sgen -30 -460 1810 180
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"2",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
